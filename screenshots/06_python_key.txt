@@ -1,0 +1,28 @@
+Laboratory Work No. 2 - Monoalphabetic Cryptanalysis
+Author: Luchiciov Alexei | Group: FAF-241
+
+1. Letter frequencies
+2. Common bigrams and trigrams
+3. Add or change a letter mapping
+4. Remove a letter mapping
+5. Show partial plaintext
+6. Show current key
+7. Load the recovered solution for the assigned variant
+8. Save the result
+0. Exit
+Choose an option: 7
+Recovered solution loaded.
+Cipher: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Plain:  BQFUJYNCRGVKZODSHWLAPETIXM
+Direction: ciphertext letter -> plaintext letter.
+
+1. Letter frequencies
+2. Common bigrams and trigrams
+3. Add or change a letter mapping
+4. Remove a letter mapping
+5. Show partial plaintext
+6. Show current key
+7. Load the recovered solution for the assigned variant
+8. Save the result
+0. Exit
+Choose an option: 

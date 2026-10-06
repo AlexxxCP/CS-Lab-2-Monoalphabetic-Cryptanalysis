@@ -1,0 +1,82 @@
+{
+  "variant": 14,
+  "author": "Luchiciov Alexei",
+  "group": "FAF-241",
+  "teacher": "Maia Zaica",
+  "steps": [
+    {
+      "title": "Start with the most frequent letters",
+      "mappings": {
+        "V": "E",
+        "W": "T"
+      },
+      "reason": "V and W are the two most frequent ciphertext letters. E and T are the most frequent letters in the English reference table. I first try V → E and W → T, and treat these choices as hypotheses."
+    },
+    {
+      "title": "Recognize THE and the single-letter word A",
+      "mappings": {
+        "Q": "H",
+        "T": "A"
+      },
+      "reason": "The repeated group WQV now reads tQe, which strongly suggests THE, so Q → H. The isolated letter T is used as a word and is also very frequent. I try T → A; the surrounding phrases support this choice."
+    },
+    {
+      "title": "Recognize AND, IT and IN",
+      "mappings": {
+        "G": "N",
+        "O": "D",
+        "X": "I"
+      },
+      "reason": "The repeated word TGO now starts with a and fits AND, giving G → N and O → D. XW becomes Xt and fits IT, giving X → I. The frequent group XG then becomes IN, which confirms the guess."
+    },
+    {
+      "title": "Recognize SECRET OFFICE and OF",
+      "mappings": {
+        "P": "S",
+        "H": "C",
+        "I": "R",
+        "N": "O",
+        "C": "F"
+      },
+      "reason": "The opening words PVHIVW NCCXHV have the pattern ?e??et ???i?e. In this context they fit SECRET OFFICE. These words give P → S, H → C, I → R, N → O and C → F. The frequent word NC becomes OF and gives another check."
+    },
+    {
+      "title": "Recover FULL, MAILS and POST",
+      "mappings": {
+        "D": "U",
+        "S": "L",
+        "Z": "M",
+        "U": "P"
+      },
+      "reason": "CDSS has the pattern fDSS, including a repeated final letter. In the phrase about enjoying legality, FULL is a good fit, giving D → U and S → L. ZTXSP then becomes Zails and fits MAILS, giving Z → M. UNPW becomes Uost and fits POST, giving U → P. These replacements also make PRIVATE and POST OFFICE readable."
+    },
+    {
+      "title": "Recover GOVERNMENT, WITH, THEY and KING",
+      "mappings": {
+        "J": "G",
+        "K": "V",
+        "R": "W",
+        "F": "Y",
+        "L": "K"
+      },
+      "reason": "JNKVIGZVGW now reads JoKernment and fits GOVERNMENT, giving J → G and K → V. RXWQ becomes Rith and fits WITH, giving R → W. WQVF becomes theF and fits THEY, giving F → Y. LXGJ becomes Ling and fits KING, giving L → K."
+    },
+    {
+      "title": "Resolve the less frequent letters",
+      "mappings": {
+        "A": "B",
+        "E": "J",
+        "B": "Q",
+        "Y": "X"
+      },
+      "reason": "AITGHQ reads Aranch and fits BRANCH, giving A → B. ENQG reads Eohn and fits JOHN, giving E → J. BDTIWVIVO reads Buartered and fits QUARTERED, giving B → Q. VYUVIWP reads eYperts and fits EXPERTS, giving Y → X. Other appearances, such as EXERCISED, support the last guess."
+    },
+    {
+      "title": "Resolve the rarest letter and verify the complete key",
+      "mappings": {
+        "M": "Z"
+      },
+      "reason": "Only M remains unresolved. NIJTGXMTWXNG reads organiMation and fits ORGANIZATION, so M → Z. M occurs once in this variant. All 26 ciphertext letters are now mapped to 26 different plaintext letters. I read the result and re-encrypt it to check that it reproduces the ciphertext."
+    }
+  ]
+}

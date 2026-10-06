@@ -1,0 +1,55 @@
+Laboratory Work No. 2 - Monoalphabetic Cryptanalysis
+Author: Luchiciov Alexei | Group: FAF-241
+
+1. Letter frequencies
+2. Common bigrams and trigrams
+3. Add or change a letter mapping
+4. Remove a letter mapping
+5. Show partial plaintext
+6. Show current key
+7. Load the recovered solution for the assigned variant
+8. Save the result
+0. Exit
+Choose an option: 1
+
+Cipher letter | Count | Frequency
+      V       |   461 |   14.45%
+      W       |   296 |    9.28%
+      T       |   233 |    7.30%
+      G       |   223 |    6.99%
+      N       |   219 |    6.87%
+      P       |   217 |    6.80%
+      I       |   216 |    6.77%
+      X       |   206 |    6.46%
+      Q       |   155 |    4.86%
+      H       |   134 |    4.20%
+      S       |   120 |    3.76%
+      O       |   109 |    3.42%
+      C       |    96 |    3.01%
+      U       |    89 |    2.79%
+      D       |    73 |    2.29%
+      Z       |    72 |    2.26%
+      J       |    65 |    2.04%
+      F       |    55 |    1.72%
+      R       |    43 |    1.35%
+      A       |    41 |    1.29%
+      K       |    37 |    1.16%
+      L       |    17 |    0.53%
+      E       |     5 |    0.16%
+      Y       |     4 |    0.13%
+      B       |     3 |    0.09%
+      M       |     1 |    0.03%
+Total letters: 3190
+English reference order: ETAOINSHRDLCUMWFGYPBVKJXQZ
+Frequency order gives hints; it is not a guaranteed decryption key.
+
+1. Letter frequencies
+2. Common bigrams and trigrams
+3. Add or change a letter mapping
+4. Remove a letter mapping
+5. Show partial plaintext
+6. Show current key
+7. Load the recovered solution for the assigned variant
+8. Save the result
+0. Exit
+Choose an option: 
